@@ -13,8 +13,8 @@ checksum=$(md5sum besttrace4linux.zip)
 $2=checksum
 
 if [ "$1" = "$2" ]
-	then
-		echo "Pass,MD5 is $checksum"
-	else
-		echo "Fail,Original MD5 is $1,Now $checksum"
+    then
+        echo "Pass,MD5 is $checksum"
+    else
+        echo "Fail,Original MD5 is $1,Now $checksum"
 fi
