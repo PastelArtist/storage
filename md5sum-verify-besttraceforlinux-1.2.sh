@@ -10,7 +10,7 @@ $1="05081f46a8ed1e4d32502b76ed78d2c8"
 checksum=$(md5sum besttrace4linux.zip)
 $2=$checksum
 
-if [ "$1" = "$2" ]
+if [ "$1" == "$2" ]
     then
         echo "Pass,MD5 is $checksum"
     else
