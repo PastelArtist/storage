@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Tue, 15 Sep 2020 10:24:43 +0800
+Source: shadowsocks-libev
+Binary: shadowsocks-libev libshadowsocks-libev-dev libshadowsocks-libev2
+Architecture: amd64
+Version: 3.3.5-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Bridges Team <team+bridges@tracker.debian.org>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description:
+ libshadowsocks-libev-dev - lightweight and secure socks5 proxy (development files)
+ libshadowsocks-libev2 - lightweight and secure socks5 proxy (shared library)
+ shadowsocks-libev - lightweight and secure socks5 proxy
+Changes:
+ shadowsocks-libev (3.3.5-1) unstable; urgency=medium
+ .
+   * Remove the SNI proxy function.
+   * Minor bug fixes. (#2581, #2582, #2590, #2595, #2599,
+     #2600, #2620, #2687, #2692)
+Checksums-Sha1:
+ a925d75bbb28136df271b5cf36c55237afbedafe 9376 libshadowsocks-libev-dev_3.3.5-1_amd64.deb
+ 9743befccf7ea0f3bc669e2296d22353d1194ed2 273892 libshadowsocks-libev2-dbgsym_3.3.5-1_amd64.ddeb
+ 0e23d06349b7fdc8af5487a94f886ba168dd71d0 83964 libshadowsocks-libev2_3.3.5-1_amd64.deb
+ 6abb5e4bb9af15cb9373c787efad99909e151210 942448 shadowsocks-libev-dbgsym_3.3.5-1_amd64.ddeb
+ 17705fb010235cfa39f205887c742113c5f5ff5b 7468 shadowsocks-libev_3.3.5-1_amd64.buildinfo
+ dc175f6d36a91c51dad46fe2a31eaeba0dfca115 208524 shadowsocks-libev_3.3.5-1_amd64.deb
+Checksums-Sha256:
+ 2b8a3db83d3b51ec66fdb94143c3b4946b4676af7adda39eaefb8b9e0659ef5e 9376 libshadowsocks-libev-dev_3.3.5-1_amd64.deb
+ cf8c687ded569c64f36a8cc237aa47a5e8ddd023a784b2562f0277572498bc94 273892 libshadowsocks-libev2-dbgsym_3.3.5-1_amd64.ddeb
+ e0dcfdbd43d98df405fb78c6b915bec240d43ccaaae41bcd62cf7557484a68b9 83964 libshadowsocks-libev2_3.3.5-1_amd64.deb
+ fe7555024ab94096a8f564fa29881cb619b8afe57855a051edc36daffd51fae0 942448 shadowsocks-libev-dbgsym_3.3.5-1_amd64.ddeb
+ 7658d172a5c977c4939b632259f9c62ad4ae380702b4deaa4a82485893f62a29 7468 shadowsocks-libev_3.3.5-1_amd64.buildinfo
+ 93386684b57e012bc28fd0af35d7ccca710af60897a91de2ddd1d119d0976eae 208524 shadowsocks-libev_3.3.5-1_amd64.deb
+Files:
+ 240f1bec0d84f6e7e45019459ac60198 9376 libdevel optional libshadowsocks-libev-dev_3.3.5-1_amd64.deb
+ 7cd38ea56bde6f530b55e8f9c719a81b 273892 debug optional libshadowsocks-libev2-dbgsym_3.3.5-1_amd64.ddeb
+ cd0dae3013649bff68a15fed7cfda189 83964 libs optional libshadowsocks-libev2_3.3.5-1_amd64.deb
+ 521a0f455de86a1b7a59499affdb5507 942448 debug optional shadowsocks-libev-dbgsym_3.3.5-1_amd64.ddeb
+ b9abe0e8ef950f2515cd60737268acc0 7468 net optional shadowsocks-libev_3.3.5-1_amd64.buildinfo
+ d595137ffe87e3f6030157cfd8ccb785 208524 net optional shadowsocks-libev_3.3.5-1_amd64.deb
